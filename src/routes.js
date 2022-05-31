@@ -19,12 +19,12 @@ const routes = [
   },
   {
     method: 'GET',
-    path: '/notes{id}',
+    path: '/notes/{id}',
     handler: getNoteByIdHandler,
   },
   {
     method: 'PUT',
-    path: '/notes{id}',
+    path: '/notes/{id}',
     handler: editNoteByIdHandler,
   },
   {
